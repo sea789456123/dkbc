@@ -1,8 +1,5 @@
-/*!
- * Start Bootstrap - Agency v4.1.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
+@font-face { font-family: 'GyeonggiBatang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -12,16 +9,8 @@ p {
   line-height: 1.75;
 }
 
-a {
-  color: #fed136;
-}
-
-a:hover {
-  color: #fec503;
-}
-
 .text-primary {
-  color: #fed136 !important;
+  color: #007bff !important;
 }
 
 h1,
@@ -70,13 +59,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #013ADF !important;
+  border-color: #013ADF !important;
   color: white;
 }
 
@@ -118,7 +107,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #007bff;
   font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
 }
 
@@ -136,7 +125,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #007bff;
 }
 
 @media (min-width: 992px) {
@@ -658,6 +647,7 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #212529;
 }
 
 footer span.copyright {
@@ -665,6 +655,7 @@ footer span.copyright {
   line-height: 40px;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 footer ul.quicklinks {
@@ -696,4 +687,24 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+/* About */
+img.about1 {
+  position: relative;
+  top: -142px;
+}
+
+#about a {
+  text-decoration: underline;
+  color: #6c757d;
+}
+
+#about .service-heading {
+  color: black;
+}
+
+/* font */
+div.intro-heading, #about h3, #about p, #portfolio h3{
+  font-family: 'GyeonggiBatang' !important;
 }
