@@ -185,9 +185,9 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 header.masthead .intro-text .intro-heading {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
-  line-height: 50px;
+  line-height: 75px;
   margin-bottom: 25px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -707,6 +707,7 @@ img.about1 {
 /* font */
 div.intro-heading, #about h3, #about p, #portfolio h3, #team h3, #team h4, #team p, #rule h3, #rule p {
   font-family: 'GyeonggiBatang' !important;
+  line-height: 2;
 }
 
 #team .row{
@@ -717,4 +718,5 @@ div.intro-heading, #about h3, #about p, #portfolio h3, #team h3, #team h4, #team
   background-color: #fff;
   padding: 1rem;
   border: 7px double #007bff;
+  margin: 0px;
 }
