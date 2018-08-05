@@ -570,9 +570,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
+  width: 160px;
+  height: 160px;
+  border: 5px solid #007bff;
 }
 
 .team-member h4 {
@@ -705,6 +705,16 @@ img.about1 {
 }
 
 /* font */
-div.intro-heading, #about h3, #about p, #portfolio h3{
+div.intro-heading, #about h3, #about p, #portfolio h3, #team h3, #team h4, #team p, #rule h3, #rule p {
   font-family: 'GyeonggiBatang' !important;
+}
+
+#team .row{
+  justify-content: center;
+}
+
+#rule .content {
+  background-color: #fff;
+  padding: 1rem;
+  border: 7px double #007bff;
 }
